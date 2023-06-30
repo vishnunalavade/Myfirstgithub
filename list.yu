@@ -1,0 +1,84 @@
+Book=["Marathi","Hindi","English","Science","Math","Java","Python"]
+print(Book)
+
+Movies=["Pathaan","Baahubali","KGF","Sairat","Dangal"]
+print(Movies)
+
+
+Name=["Vishnu","Mahesh","Tushar","Shubham","Atul"]
+print(Name)
+
+
+list=["1","2","3","4","5","6","7"]
+print(list)
+
+list=["Vishnu","Mahesh","Aniket","Arvind","Tushar","Saurabh","Aklishes"]
+print(list)
+
+
+print(len(list))
+list.extend(["1","2","3","4","5","6","7","8","9","0"])
+print(list)
+
+list.remove("9")
+print(list)
+
+list.insert(5,"Arvind")
+print(list)
+
+list=["Vishnu","Mahesh","Aniket","Arvind","Tushar","Saurabh","Aklishes"]
+print(list)
+
+list.append("Aniket") #add a single name#
+print(list)
+
+print(len(list))
+list.extend(["1","2","3","4","5","6","7","8"])
+print(list)
+
+list.remove("3")
+print(list)
+
+list.insert(6,"Mahesh")
+print(list)
+
+list.insert(1,"Aniket")
+print(list)
+
+list.append("Vishnu")
+print(list)
+
+list.insert(3,"Arvind")
+print(list)
+
+
+# Add two element
+a = ['v','i','s','h','n','u']
+a1 = [1,2,3,4,5,6]
+a.extend(a1)
+print(a)
+
+#insert element
+list.insert(3,'u')
+print(list)
+
+list.append(5)
+print(list)
+
+#append
+c = [12,45,768,4]
+c.append(57)
+print(c)
+
+t = [100,456,897,544,776,988]
+t.append(999)
+print(t)
+
+# Add the two list
+
+list = [3,5,7,8]
+list3 = [4,9,6]
+list.extend(list3)
+print(list)
+
+
