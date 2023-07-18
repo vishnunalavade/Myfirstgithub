@@ -1,0 +1,94 @@
+def Vishnu(name,age):
+    print('hello',name)
+    print('How old are you', age)
+Vishnu("Arvind",23)    
+
+
+n1=100
+n2=200
+def add_number(n1, n2):
+    result = n1+n2
+    print('The sum is', result)
+
+add_number(n1,n2)
+
+y=1000
+def add(y): 
+    x=100
+    c=200
+    d= x+y+c
+    print(d)
+add(y)
+
+
+a=2000
+def add(a):
+    x=200
+    c=300
+    d= x-y-c
+    print(a)
+add(y)
+
+
+def greet():
+    print('Hello World!')
+# call the function
+greet()
+print('Outside function')
+
+
+def add_numbers(num1, num2):
+    sum = num1 + num2
+    print("Sum: ",sum)
+
+# function call with two values
+add_numbers(5, 4)
+
+
+# function definition
+def find_square(num):
+    result = num * num
+    return result
+square = find_square(3)
+
+print('Square:',square)
+
+
+# Program to check if a number is prime or not
+num = 29
+flag = False
+
+if num == 1:
+    print(num, "is not a prime number")
+elif num > 1:
+    for i in range(2, num):
+        if (num % i) == 0:
+            flag = True
+            break
+    if flag:
+        print(num, "is not a prime number")
+    else:
+        print(num, "is a prime number")
+
+
+
+# Leap Year Program
+year = 2000
+if (year % 400 == 0) and (year % 100 ==0):
+    print("{0} is a leap year".format(year))
+
+elif (year % 4 == 0) and (year % 100 != 0):    
+      print("{0} is a leap year".format(year))
+else:
+     print("{0} is not a leap year".format(year))    
+
+
+
+num = float(input("Enter a number: "))
+if num > 0:
+   print("Positive number")
+elif num == 0:
+   print("Zero")
+else:
+   print("Negative number")          
+
